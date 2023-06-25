@@ -1,0 +1,25 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>my-repository-http-unblocker</id>
+            <mirrorOf>AsposeJavaAPI</mirrorOf>
+            <name></name>
+            <url>http://repository.aspose.com/repo/</url>
+        </mirror>
+    </mirrors>
+</settings>
+
+<dependencies>
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>22.5</version>
+</dependency>
+<!--<dependency>
+    <groupId>org.bytedeco</groupId>
+    <artifactId>tesseract-platform</artifactId>
+    <version>5.3.1-1.5.9</version>
+</dependency>-->
+</dependencies>
